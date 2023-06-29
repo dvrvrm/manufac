@@ -13,7 +13,7 @@ function Statistics(props) {
     });
 
     let alcoholIndices = Object.keys(stats);
-    const meanArr = getClasswiseMean(alcoholIndices, stats);
+    const meanArr = getClasswiseMean(alcoholIndices, stats); //meanArr = [{aClass: '1',value: '3.3'}, {aClass: '2', value: '3.3'}]
     const medianArr = getClasswiseMedian(alcoholIndices, stats);
     const modeArr = getClasswiseMode(alcoholIndices, stats);
 
