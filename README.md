@@ -1,4 +1,6 @@
-# App for Manufac [front end role]
+# App for Manufac
+
+Use "yarn start" to start project
 
 Output :
 
